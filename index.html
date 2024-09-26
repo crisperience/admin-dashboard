@@ -3,8 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Admin Dashboard</title>
+    <link href="dist/output.css" rel="stylesheet" />
   </head>
-  <link rel="stylesheet" href="style.css" />
-  <body></body>
+  <body class="h-screen">
+    <div class="grid grid-cols-4 h-full">
+      <!-- Header -->
+      <header class="col-span-4 bg-green-500 text-white p-4 text-center">
+        Header
+      </header>
+
+      <!-- Sidebar -->
+      <aside class="col-span-1 bg-gray-800 text-white p-4">Sidebar</aside>
+
+      <!-- Main Content -->
+      <main class="col-span-3 p-4 grid grid-cols-3 gap-4">
+        <div class="bg-gray-200 p-4 rounded shadow">Widget 1</div>
+        <div class="bg-gray-200 p-4 rounded shadow">Widget 2</div>
+        <div class="bg-gray-200 p-4 rounded shadow">Widget 3</div>
+        <div class="bg-gray-200 p-4 rounded shadow">Widget 4</div>
+        <div class="bg-gray-200 p-4 rounded shadow">Widget 5</div>
+        <div class="bg-gray-200 p-4 rounded shadow">Widget 6</div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="col-span-4 bg-green-500 text-white p-2 text-center">
+        Footer
+      </footer>
+    </div>
+  </body>
 </html>
